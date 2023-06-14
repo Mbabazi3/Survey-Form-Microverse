@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form Website</title>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Driving Survey Form</h1>
+
+    <form action="" id="survey-form">
+      <label for="" id="name-label">Name</label><br />
+      <input type="text" id="name" placeholder="Enter your Name" /><br />
+
+      <label for="" id="email-label">Email</label><br />
+      <input id="email" placeholder="Enter your Email" /><br />
+
+      <label for="" id="number-label">Age</label><br />
+      <input id="number" placeholder="Enter the Number" /><br />
+
+      <label for="working-days">How often do you drive (days in a week)?</label
+      ><br />
+      <select name="working-days" id="dropdown">
+        <option disabled selected value>Please Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option></select
+      ><br />
+      <div id="time-radio-buttons">
+        <p>Do you usually leave early, on time or late?</p>
+        <input type="radio" name="time" value="early" checked />
+        <label for="early">Early</label><br />
+
+        <input type="radio" name="time" value="on-time" />
+        <label for="on-time">On Time</label><br />
+
+        <input type="radio" name="time" value="late" />
+        <label for="late">Late</label><br />
+      </div>
+      <div id="checkbox">
+        <p>Answer the Questions below and Check the boxes below</p>
+        <input type="checkbox" name="same" id="" value="" />
+        <label for=""
+          >In the last 30 days, have you spoken in the phone while
+          driving?</label
+        >
+        <br />
+        <input type="checkbox" name="same" id="" value="" />
+        <label for=""
+          >In the last 30 days, have you smoked while driving?</label
+        >
+        <br />
+        <input type="checkbox" name="same" id="" value="" />
+
+        <label for="">Have you ever gotten a ticket from a cop before?</label>
+      </div>
+
+      <textarea id="" name="" rows="4" cols="50">Comments</textarea><br />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
